@@ -25,7 +25,7 @@ function ScrollToTop() {
 
 function App() {
   // 1. Theme State: Light / Dark with persistence
-  // 1. Theme State: Light / Dark with persistence
+
   const [theme, setTheme] = useState(() => {
     const saved = localStorage.getItem('localloop_theme');
     if (saved) return saved;
